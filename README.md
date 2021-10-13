@@ -3,8 +3,9 @@
 [![GoVersion](https://img.shields.io/github/go-mod/go-version/elimity-com/scim.svg)](https://github.com/elimity-com/scim)
 [![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/elimity-com/scim)
 
-
 [![Tag](https://img.shields.io/github/tag/elimity-com/scim.svg)](https://gitHub.com/elimity-com/scim/releases)
+
+> This is a fork of the elimity-com/repository which updates the PATCH logic to handle Microsoft Azure AD non-compliance SCIM 2.0 behavior (see https://docs.microsoft.com/en-us/azure/active-directory/app-provisioning/application-provisioning-config-problem-scim-compatibility)
 
 This is an open source implementation of the [SCIM v2.0](http://www.simplecloud.info/#Specification) specification for use in Golang.
 SCIM defines a flexible schema mechanism and REST API for managing identity data.

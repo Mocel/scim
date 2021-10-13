@@ -1,8 +1,8 @@
 package patch
 
 import (
-	"github.com/elimity-com/scim/optional"
-	"github.com/elimity-com/scim/schema"
+	"github.com/Mocel/scim/optional"
+	"github.com/Mocel/scim/schema"
 )
 
 var (

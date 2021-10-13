@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/elimity-com/scim/optional"
-	"github.com/elimity-com/scim/schema"
+	"github.com/Mocel/scim/optional"
+	"github.com/Mocel/scim/schema"
 	"github.com/scim2/filter-parser/v2"
 )
 

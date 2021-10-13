@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/elimity-com/scim/errors"
-	"github.com/elimity-com/scim/optional"
-	"github.com/elimity-com/scim/schema"
+	"github.com/Mocel/scim/errors"
+	"github.com/Mocel/scim/optional"
+	"github.com/Mocel/scim/schema"
 )
 
 func TestInvalidRequests(t *testing.T) {

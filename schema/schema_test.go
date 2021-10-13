@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/elimity-com/scim/optional"
+	"github.com/Mocel/scim/optional"
 )
 
 var testSchema = Schema{

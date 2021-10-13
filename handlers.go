@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/elimity-com/scim/errors"
-	f "github.com/elimity-com/scim/internal/filter"
-	"github.com/elimity-com/scim/schema"
+	"github.com/Mocel/scim/errors"
+	f "github.com/Mocel/scim/internal/filter"
+	"github.com/Mocel/scim/schema"
 )
 
 func errorHandler(w http.ResponseWriter, _ *http.Request, scimErr *errors.ScimError) {

@@ -1,7 +1,7 @@
 package scim
 
 import (
-	"github.com/elimity-com/scim/errors"
+	"github.com/Mocel/scim/errors"
 	"reflect"
 	"testing"
 )

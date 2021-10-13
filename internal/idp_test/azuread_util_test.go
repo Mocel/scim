@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/elimity-com/scim"
-	"github.com/elimity-com/scim/errors"
-	"github.com/elimity-com/scim/optional"
-	"github.com/elimity-com/scim/schema"
+	"github.com/Mocel/scim"
+	"github.com/Mocel/scim/errors"
+	"github.com/Mocel/scim/optional"
+	"github.com/Mocel/scim/schema"
 	"github.com/scim2/filter-parser/v2"
 )
 

@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/Mocel/scim/errors"
+	"github.com/Mocel/scim/optional"
 	datetime "github.com/di-wu/xsd-datetime"
-	"github.com/elimity-com/scim/errors"
-	"github.com/elimity-com/scim/optional"
 )
 
 // CoreAttribute represents those attributes that sit at the top level of the JSON object together with the common

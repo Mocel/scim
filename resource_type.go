@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/elimity-com/scim/errors"
-	"github.com/elimity-com/scim/internal/patch"
-	"github.com/elimity-com/scim/optional"
-	"github.com/elimity-com/scim/schema"
+	"github.com/Mocel/scim/errors"
+	"github.com/Mocel/scim/internal/patch"
+	"github.com/Mocel/scim/optional"
+	"github.com/Mocel/scim/schema"
 )
 
 // unmarshal unifies the unmarshal of the requests.

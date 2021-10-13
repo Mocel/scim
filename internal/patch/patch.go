@@ -3,8 +3,8 @@ package patch
 import (
 	"encoding/json"
 	"fmt"
-	f "github.com/elimity-com/scim/internal/filter"
-	"github.com/elimity-com/scim/schema"
+	f "github.com/Mocel/scim/internal/filter"
+	"github.com/Mocel/scim/schema"
 	"github.com/scim2/filter-parser/v2"
 	"strings"
 )

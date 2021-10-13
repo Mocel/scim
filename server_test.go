@@ -2,21 +2,21 @@ package scim_test
 
 import (
 	"fmt"
-	"io/ioutil"
+	"io"
 	"net/http"
 	"time"
 
-	"github.com/elimity-com/scim"
-	"github.com/elimity-com/scim/errors"
-	internal "github.com/elimity-com/scim/internal/filter"
-	"github.com/elimity-com/scim/optional"
-	"github.com/elimity-com/scim/schema"
+	"github.com/Mocel/scim"
+	"github.com/Mocel/scim/errors"
+	internal "github.com/Mocel/scim/internal/filter"
+	"github.com/Mocel/scim/optional"
+	"github.com/Mocel/scim/schema"
 	"github.com/scim2/filter-parser/v2"
 )
 
 func checkBodyNotEmpty(r *http.Request) error {
 	// Check whether the request body is empty.
-	data, err := ioutil.ReadAll(r.Body)
+	data, err := io.ReadAll(r.Body)
 	if err != nil {
 		return err
 	}

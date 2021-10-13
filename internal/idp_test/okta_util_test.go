@@ -3,10 +3,10 @@ package idp_test
 import (
 	"net/http"
 
-	"github.com/elimity-com/scim"
-	"github.com/elimity-com/scim/errors"
-	"github.com/elimity-com/scim/optional"
-	"github.com/elimity-com/scim/schema"
+	"github.com/Mocel/scim"
+	"github.com/Mocel/scim/errors"
+	"github.com/Mocel/scim/optional"
+	"github.com/Mocel/scim/schema"
 )
 
 func newOktaTestServer() scim.Server {

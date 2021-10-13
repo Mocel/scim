@@ -2,7 +2,7 @@ package patch
 
 import (
 	"fmt"
-	"github.com/elimity-com/scim/schema"
+	"github.com/Mocel/scim/schema"
 	"testing"
 )
 

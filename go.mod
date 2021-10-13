@@ -1,4 +1,4 @@
-module github.com/elimity-com/scim
+module github.com/Mocel/scim
 
 go 1.16
 

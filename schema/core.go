@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"regexp"
+	"strconv"
 	"strings"
 
 	datetime "github.com/di-wu/xsd-datetime"
@@ -179,8 +180,11 @@ func (a CoreAttribute) ValidateSingular(attribute interface{}) (interface{}, *er
 
 		return bin, nil
 	case attributeDataTypeBoolean:
-		b, ok := attribute.(bool)
-		if !ok {
+		// Attempt to convert the string field attribute instead of asserting it to a bool.
+		// Microsoft Azure AD currently sends the boolean attribute "active" as string values
+		// ("True" and "False") which cannot be asserted to a Golang bool.
+		b, err := strconv.ParseBool(fmt.Sprintf("%v", attribute))
+		if err != nil {
 			return nil, &errors.ScimErrorInvalidValue
 		}
 
